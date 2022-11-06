@@ -1,13 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+//npm install -S react-router-dom 
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+
 
 function App() {
   return (
-    <browserRouter>
+    <BrowserRouter>
     <NavBar></NavBar>
     <Routes>
-      <route path="/" element={<Home></Home>}/>
+      <Route path="/" element={<Home></Home>}/>
     </Routes>
-    </browserRouter>
+    </BrowserRouter>
   );
 }
 
