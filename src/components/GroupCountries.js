@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Country from './ItemCountry'
 
+import "../css/styles.css";
+
 
 const groupCountries =({listCountries}) =>{
 

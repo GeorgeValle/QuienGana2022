@@ -4,6 +4,7 @@ import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import GroupListContainer from './containers/GroupListContainer.js';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <NavBar></NavBar>
     <Routes>
       <Route path="/" element={<Home></Home>}/>
+      <Route path="/grupos" element={<GroupListContainer></GroupListContainer>}/>
     </Routes>
     </BrowserRouter>
   );

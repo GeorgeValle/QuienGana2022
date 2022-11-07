@@ -6,7 +6,7 @@ const home =() =>{
 
     return(
         <div className="cover-home">
-            <h1 classNAme="example">example home</h1>
+            <h1 className="example">example home</h1>
         </div>
     )
 }

@@ -1,4 +1,7 @@
 import GroupCountries from "../components/GroupCountries";
+import {useState}from'react';
+import Daleb from "../components/Daleb.js";
+
 
 
 
@@ -30,14 +33,14 @@ const GroupListContainer=()=>{
         {name:"Canadá",image:arg,group:"F"},
         {name:"Marruecos",image:arg,group:"F"},
         {name:"Croacia",image:arg,group:"F"},
-        {name:"Brasil",image:"",group:"G"},
-        {name:"Serbia",image:"",group:"G"},
-        {name:"Suiza",image:"",group:"G"},
-        {name:"Camerún",image:"",group:"G"},
-        {name:"Portugal",image:"",group:"H"},
-        {name:"Ghana",image:"",group:"H"},
-        {name:"Uruguay",image:"",group:"H"},
-        {name:"Corea del Sur",image:"",group:"H"}
+        {name:"Brasil",image:arg,group:"G"},
+        {name:"Serbia",image:arg,group:"G"},
+        {name:"Suiza",image:arg,group:"G"},
+        {name:"Camerún",image:arg,group:"G"},
+        {name:"Portugal",image:arg,group:"H"},
+        {name:"Ghana",image:arg,group:"H"},
+        {name:"Uruguay",image:arg,group:"H"},
+        {name:"Corea del Sur",image:arg,group:"H"}
     ]
 
     setTimeout(setLoader(true), 2500);
